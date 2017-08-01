@@ -1,10 +1,16 @@
 function Bowling(Array) {
 this.score = function() {
-var sum = 0;
-for (i=0; i<Array.length; i++) {
-sum += Array[i];
+var initialState = {
+shoot : 1,
+pinsRemaining: 10,
+isStrike: false,
+isSpare: false,
+score: 0,
+rollNumber: 1
 }
-return sum;
+
+
+
 }
 }
 
